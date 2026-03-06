@@ -1,0 +1,3 @@
+02-03-2026 -> 08-03-2026
+	parametric vs grammar-based pg -> grammar is norm for buildings, however for interactivity parametric may be better
+	unity splines????
