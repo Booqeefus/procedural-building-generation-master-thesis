@@ -1,0 +1,17 @@
+Materials provided by supervisor:
+https://niklaus.houska.ch/publications/recompose-grammars-for-procedural-architecture/
+https://sutd-cgl.github.io/supp/Publication/projects/2024-EG-UrbanModeling/index.html
+https://arxiv.org/pdf/2505.04051
+https://markussteinberger.net/papers/OnTheFlyGeneration.pdf
+https://inria.hal.science/hal-01810207/file/photo2building.pdf
+https://leiy.cc/publications/procwin/procwin.pdf
+https://www.cs.purdue.edu/cgvlab/papers/aliaga/i3d2020-1.pdf
+https://www.graphics.rwth-aachen.de/publication/03299/
+https://www.researchgate.net/publication/312211127_Sketch-based_Guided_Modeling_of_3D_Buildings_from_Oriented_Photos
+https://www.cs.purdue.edu/cgvlab/www/resources/papers/Gaillard-2019-Dendry_A_Procedural_Model_for_Dendritic_Patterns.pdf
+https://www.researchgate.net/publication/261030585_Inverse_Procedural_Modelling_of_Trees
+https://www.javor.me/data/printable_microtiles.pdf
+https://www.researchgate.net/publication/317749455_Interactive_Modeling_and_Authoring_of_Climbing_Plants
+https://www.peterwonka.net/Publications/pdfs/2019.EG.Lipp.LocalEditingProceduralModels.pdf
+https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.70075
+https://arxiv.org/pdf/2306.07220
