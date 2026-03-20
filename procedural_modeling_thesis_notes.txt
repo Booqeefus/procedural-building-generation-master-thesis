@@ -1,0 +1,121 @@
+MASTER’S THESIS PREPARATION NOTES Interactive Urban Space Design Using
+Procedural Modeling
+
+  --------------------------------------------------
+  1. CORE CONCEPT
+  --------------------------------------------------
+  Procedural modeling combines: - Rule-based systems
+  (grammars, rules) - Parameters (controllable
+  values)
+
+  Rules define structure (e.g., building → floors →
+  windows) Parameters control variation (e.g.,
+  height, number of floors)
+
+  Your thesis extends this with: - Differentiable
+  modeling - Inverse design (geometry → parameters)
+  --------------------------------------------------
+
+2. LEARNING ROADMAP
+
+FOUNDATIONS - Nature of Code (free book): https://natureofcode.com
+
+YouTube: - Sebastian Lague (procedural generation basics) - The Coding
+Train (creative coding & systems)
+
+------------------------------------------------------------------------
+
+RULE-BASED MODELING - Procedural Modeling of Cities (Parish & Müller):
+https://cgl.ethz.ch/Downloads/Publications/Papers/2001/p_Par01.pdf
+
+-   Shape Grammar Survey:
+    https://www.cs.ucsb.edu/~kocur/papers/shape-grammar-survey.pdf
+
+-   CityEngine (concept reference)
+
+------------------------------------------------------------------------
+
+L-SYSTEMS - Algorithmic Beauty of Plants (FREE):
+http://algorithmicbotany.org/papers/abop/abop.pdf
+
+Concept: - Recursive rule-based growth system (used for plants, cities)
+
+------------------------------------------------------------------------
+
+PARAMETRIC DESIGN - Grasshopper (Rhino plugin) - Search: “Grasshopper
+parametric design tutorial”
+
+Concept: - Design controlled entirely by parameters
+
+------------------------------------------------------------------------
+
+INVERSE PROCEDURAL MODELING (CORE TOPIC)
+
+Key Papers:
+
+-   Recompose Grammars:
+    https://niklaus.houska.ch/publications/recompose-grammars-for-procedural-architecture/
+
+-   Urban Modeling:
+    https://sutd-cgl.github.io/supp/Publication/projects/2024-EG-UrbanModeling/index.html
+
+-   ArXiv paper: https://arxiv.org/pdf/2505.04051
+
+-   On-the-fly generation:
+    https://markussteinberger.net/papers/OnTheFlyGeneration.pdf
+
+-   Photo to Building:
+    https://inria.hal.science/hal-01810207/file/photo2building.pdf
+
+-   ProcWin: https://leiy.cc/publications/procwin/procwin.pdf
+
+-   Aliaga paper:
+    https://www.cs.purdue.edu/cgvlab/papers/aliaga/i3d2020-1.pdf
+
+-   RWTH Aachen publication:
+    https://www.graphics.rwth-aachen.de/publication/03299/
+
+-   Sketch-based modeling:
+    https://www.researchgate.net/publication/312211127_Sketch-based_Guided_Modeling_of_3D_Buildings_from_Oriented_Photos
+
+-   Dendritic procedural model:
+    https://www.cs.purdue.edu/cgvlab/www/resources/papers/Gaillard-2019-Dendry_A_Procedural_Model_for_Dendritic_Patterns.pdf
+
+-   Inverse trees:
+    https://www.researchgate.net/publication/261030585_Inverse_Procedural_Modelling_of_Trees
+
+-   Microtiles: https://www.javor.me/data/printable_microtiles.pdf
+
+-   Climbing plants:
+    https://www.researchgate.net/publication/317749455_Interactive_Modeling_and_Authoring_of_Climbing_Plants
+
+-   Local editing procedural models:
+    https://www.peterwonka.net/Publications/pdfs/2019.EG.Lipp.LocalEditingProceduralModels.pdf
+
+-   Wiley paper:
+    https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.70075
+
+-   ArXiv (2023): https://arxiv.org/pdf/2306.07220
+
+------------------------------------------------------------------------
+
+UNITY IMPLEMENTATION
+
+Search: - Unity procedural mesh generation tutorial - Unity procedural
+buildings
+
+Concepts to learn: - Mesh generation - C# - Real-time interaction -
+Parameter-driven updates
+
+------------------------------------------------------------------------
+
+3.  CORE IDEA SUMMARY
+
+Pipeline:
+
+User interaction → Geometry change → Inverse system updates parameters →
+Procedural rules regenerate model → Updated geometry
+
+------------------------------------------------------------------------
+
+END OF NOTES
