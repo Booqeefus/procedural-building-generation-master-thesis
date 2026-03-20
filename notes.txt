@@ -1,3 +1,7 @@
 02-03-2026 -> 08-03-2026
 	parametric vs grammar-based pg -> grammar is norm for buildings, however for interactivity parametric may be better
 	unity splines????
+
+16-03-2026 -> 23-03-2026
+	binge watched this playlist on procedural mesh generation in unity (low level concepts introduction):
+		https://www.youtube.com/watch?v=WP-Bm65Q-1Y&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3
