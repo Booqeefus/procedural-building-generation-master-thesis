@@ -14,3 +14,4 @@
 30-4-2026 -> 5-4-2026
 	read:
 		Mueller et al : Procedural Modeling of Buldings (CGA shape)
+		Houska et. al. : Recompose Grammars
