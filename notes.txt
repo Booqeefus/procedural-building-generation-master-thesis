@@ -5,3 +5,12 @@
 16-03-2026 -> 23-03-2026
 	binge watched this playlist on procedural mesh generation in unity (low level concepts introduction):
 		https://www.youtube.com/watch?v=WP-Bm65Q-1Y&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3
+
+23-03-2026 -> 29-03-2026
+	crunched through :
+		G Stiny : Introduction to shapes and shape grammar (1980)
+		P Wonka : Instant Architecture (split grammars)
+
+30-4-2026 -> 5-4-2026
+	read:
+		Mueller et al : Procedural Modeling of Buldings (CGA shape)
