@@ -8,10 +8,28 @@
 
 23-03-2026 -> 29-03-2026
 	crunched through :
-		G Stiny : Introduction to shapes and shape grammar (1980)
-		P Wonka : Instant Architecture (split grammars)
+		G Stiny : Introduction to shapes and shape grammar (1980) (!)
+		P Wonka : Instant Architecture (split grammars) (!)
 
 30-4-2026 -> 5-4-2026
 	read:
-		Mueller et al : Procedural Modeling of Buldings (CGA shape)
-		Houska et. al. : Recompose Grammars
+		Mueller et al : Procedural Modeling of Buldings (CGA shape) (!)
+		Houska et. al. : Recompose Grammars (!)
+
+6-4-2026 -> 12-4-2026
+	done:
+		Chen et. al. : Hierarchical Co-generation of Parcels and Streets in Urban Modeling
+		Steinberger et. al. : On-the-fly Generation and Rendering of Infinite Cities on the GPU 
+		https://www.cs.purdue.edu/cgvlab/www/resources/papers/Gaillard-2019-Dendry_A_Procedural_Model_for_Dendritic_Patterns.pdf (not incredibly useful but interesting)
+		https://www.researchgate.net/publication/261030585_Inverse_Procedural_Modelling_of_Trees (first thing i read mentioning inverse procedural modeling)
+
+	classified as a maybe:
+		https://arxiv.org/pdf/2505.04051 -> ai-based modeling
+		https://inria.hal.science/hal-01810207/file/photo2building.pdf -> CNN-based modeling
+		https://leiy.cc/publications/procwin/procwin.pdf -> deals with interior, not really relevant
+		https://www.graphics.rwth-aachen.de/media/papers/299/string-based-synthesis-of-structured-shapes.pdf -> machine learning
+		https://www.javor.me/data/printable_microtiles.pdf -> maybe but not feelin it
+
+	LOOK UP FOR NEXT WEEK:
+		MCMC sampling, Half-Edge structure
+		
