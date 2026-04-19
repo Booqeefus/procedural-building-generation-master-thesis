@@ -32,4 +32,13 @@
 
 	LOOK UP FOR NEXT WEEK:
 		MCMC sampling, Half-Edge structure
+
+
+13-4-2026 -> 19-4-2026
+	read:
+		https://www.peterwonka.net/Publications/pdfs/2019.EG.Lipp.LocalEditingProceduralModels.pdf
+	-looked into half-edge structures
+	-chose 2 articles for presentation in may : 
+		CGA and Local Editing of Procedural Models (this week)
+
 		
