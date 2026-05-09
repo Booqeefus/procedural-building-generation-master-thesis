@@ -26,13 +26,32 @@
 ### 🪵 WEEKLY LOG
 
 <details open>
-<summary><b>Apr 20 - Apr 26 </b></summary>
-* **Results of the week:** Following consultation with supervisor opted for scope-based approach.
-* **Designed structure of prototype in unity:** Defined first rules, as well as data objects needed for calculations.
-* **To Do:**
+<summary><b>May 4 - May 10:</b></summary>
+
+*   **Results of the week:** Prepped remaining materials for presentation.
+*   **Aside:** Implementing split proving more difficult than anticipated. 
+*   **To Do:**
     1.  Implement and test split, extrude and extract rules
     2.  Test said rules, hopefully before presentation
-    
+</details>
+
+<details>
+<summary><b>Apr 27 - May 5:</b></summary>
+
+*   **Results of the week:** Minimal, on account of other both work and school-related duties.
+*   **To Do:**
+    1.  Implement and test split, extrude and extract rules
+    2.  Test said rules, hopefully before presentation
+</details>
+
+<details>
+<summary><b>Apr 20 - Apr 26:</b></summary>
+
+*   **Results of the week:** Following consultation with supervisor opted for scope-based approach.
+*   **Designed structure of prototype in unity:** Defined first rules, as well as data objects needed for calculations.
+*   **To Do:**
+    1.  Implement and test split, extrude and extract rules
+    2.  Test said rules, hopefully before presentation
 </details>
 
 <details>
