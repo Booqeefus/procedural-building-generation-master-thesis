@@ -17,7 +17,8 @@
 ---
 
 ### 📄 OVERLEAF THESIS LINK
-[**Click here to read the Thesis Document ↗**]([https://www.overleaf.com/read/jgrktdtfncch#efbeee])
+[**Click here to read the Thesis Document ↗**](https://www.overleaf.com/read/jgrktdtfncch#efbeee)
+> Or that doesn't work just copy this : https://www.overleaf.com/read/jgrktdtfncch#efbeee
 
 ---
 
