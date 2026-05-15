@@ -6,25 +6,25 @@
 
 ---
 
-### 📝 ANNOTATION
+### ANNOTATION
 > [!NOTE]
 > This thesis explores the integration of automated procedural modeling into the domain of 3D building generation, aiming to enhance user control and interactivity in procedural design workflows. By leveraging a differentiable representation of procedural models, it enables real-time inverse design, allowing users to modify building geometry directly—such as adjusting height or floor count—which automatically updates the underlying parameters. The system supports intuitive interfaces like sliders and spatial handles, making procedural modeling accessible to non-experts while simultaneously preserving the flexibility and scalability of rule-based generation.
 
-### 🎯 GOAL
+### GOAL
 > [!TIP]
 > By leveraging a differentiable representation of procedural models, it enables real-time inverse design, allowing users to modify building geometry directly—such as adjusting height or floor count—which automatically updates the underlying parameters. The system supports intuitive interfaces like sliders and spatial handles, making procedural modeling accessible to non-experts while simultaneously preserving the flexibility and scalability of rule-based generation.
 
 ---
 
-### 📄 OVERLEAF THESIS LINK
+### OVERLEAF THESIS LINK
 [**Click here for the Overleaf project↗**](https://www.overleaf.com/read/jgrktdtfncch#efbeee)
 
 
 ---
 
-### 📅 DEVELOPMENT CALENDAR
+### DEVELOPMENT CALENDAR
 
-### 🪵 WEEKLY LOG
+### WEEKLY LOG
 
 <details open>
 <summary><b>May 4 - May 10:</b></summary>
