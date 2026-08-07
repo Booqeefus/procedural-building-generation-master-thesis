@@ -11,24 +11,44 @@ public class SplitRule : GrammarRule
     public override List<Scope> ApplyRule(Scope parentScope)
     {
         List<Scope> newScopes = new List<Scope>();
-        
-        // 1. Calculate Total Fixed vs. Relative space
+
+        // 1. Calculate total fixed vs. relative space
         float parentSizeOnAxis = GetAxisSize(parentScope.size, splitAxis);
-        float fixedTotal = 0;
-        float relativeWeightSum = 0;
+        float fixedTotal = 0f;
+        float relativeWeightSum = 0f;
 
         foreach (var split in splits)
         {
-            if (split.isRelative) relativeWeightSum += split.size;
-            else fixedTotal += split.size;
+            if (split.isRelative)
+                relativeWeightSum += split.size;
+            else
+                fixedTotal += split.size;
         }
 
         // 2. Determine how much space is left for relative segments
-        float remainingSpace = Mathf.Max(0, parentSizeOnAxis - fixedTotal);
-        float cursor = 0; // Tracks the local starting position of the next segment
+        float remainingSpace = Mathf.Max(0f, parentSizeOnAxis - fixedTotal);
+        float cursor = 0f; // Tracks the local starting position of the next segment
 
         // 3. Create the sub-scopes
-    
+        foreach (var split in splits)
+        {
+            float sizeOnAxis = split.isRelative
+                ? (split.size / (relativeWeightSum > 0f ? relativeWeightSum : 1f)) * remainingSpace
+                : split.size;
+
+            Vector3 newSize = parentScope.size;
+            SetAxisSize(ref newSize, splitAxis, sizeOnAxis);
+
+            Vector3 localOffset = Vector3.zero;
+            SetAxisSize(ref localOffset, splitAxis, cursor + sizeOnAxis / 2f); // Center the child scope in the parent space
+
+            Matrix4x4 childMatrix = parentScope.matrix * Matrix4x4.Translate(localOffset);
+            Scope newScope = new Scope(childMatrix, newSize, split.tag);
+            newScopes.Add(newScope);
+
+            cursor += sizeOnAxis; // Move the cursor for the next segment
+        }
+
         return newScopes;
     }
 
