@@ -97,3 +97,75 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# --- Unity Project: buildingGenerator ---
+
+# Folders to ignore within the subfolder
+buildingGenerator/[Ll]ibrary/
+buildingGenerator/[Tt]emp/
+buildingGenerator/[Oo]bj/
+buildingGenerator/[Bb]uild/
+buildingGenerator/[Bb]uilds/
+buildingGenerator/[Ll]ogs/
+buildingGenerator/[Uu]ser[Ss]ettings/
+buildingGenerator/.utmp/
+
+# General files within the subfolder
+buildingGenerator/*.log
+buildingGenerator/*.blend1
+buildingGenerator/*.blend1.meta
+
+# Memory and Recordings
+buildingGenerator/[Mm]emoryCaptures/
+buildingGenerator/[Rr]ecordings/
+
+# Assets & Plugins
+buildingGenerator/[Aa]ssets/Plugins/Editor/JetBrains*
+buildingGenerator/[Aa]ssets/AssetStoreTools*
+
+# IDE and Project files
+buildingGenerator/.vs/
+buildingGenerator/.gradle/
+buildingGenerator/ExportedObj/
+buildingGenerator/.consulo/
+buildingGenerator/*.csproj
+buildingGenerator/*.unityproj
+buildingGenerator/*.sln
+buildingGenerator/*.suo
+buildingGenerator/*.tmp
+buildingGenerator/*.user
+buildingGenerator/*.userprefs
+buildingGenerator/*.pidb
+buildingGenerator/*.booproj
+buildingGenerator/*.svd
+buildingGenerator/*.pdb
+buildingGenerator/*.mdb
+buildingGenerator/*.opendb
+buildingGenerator/*.VC.db
+buildingGenerator/*.DotSettings.user
+
+# Unity/Mono metadata and crash reports
+buildingGenerator/*.pidb.meta
+buildingGenerator/*.pdb.meta
+buildingGenerator/*.mdb.meta
+buildingGenerator/sysinfo.txt
+buildingGenerator/mono_crash.*
+
+# Build Artifacts
+buildingGenerator/*.apk
+buildingGenerator/*.aab
+buildingGenerator/*.unitypackage
+buildingGenerator/*.unitypackage.meta
+buildingGenerator/*.app
+buildingGenerator/crashlytics-build.properties
+
+# Addressables & Visual Scripting
+buildingGenerator/ServerData/
+buildingGenerator/[Aa]ssets/StreamingAssets/aa*
+buildingGenerator/[Aa]ssets/AddressableAssetsData/link.xml*
+buildingGenerator/[Aa]ssets/Addressables_Temp*
+buildingGenerator/[Aa]ssets/AddressableAssetsData/*/*.bin*
+buildingGenerator/[Aa]ssets/Unity.VisualScripting.Generated/
+
+# Test Scenes
+buildingGenerator/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
