@@ -104,5 +104,12 @@
     *   *Focus:* Low-level vertex/triangle manipulation.
 </details>
 
+<details>
+<summary><b>Sep 21 - Sep 27:</b></summary>
+
+*   **Results of the week:** Implemented and tested split rule as well as scope visualisation for debugging.
+
+</details>
+
 ---
 
