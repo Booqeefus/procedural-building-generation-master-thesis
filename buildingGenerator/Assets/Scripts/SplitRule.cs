@@ -27,7 +27,7 @@ public class SplitRule : GrammarRule
 
         // 2. Determine how much space is left for relative segments
         float remainingSpace = Mathf.Max(0f, parentSizeOnAxis - fixedTotal);
-        float cursor = 0f; // Tracks the local starting position of the next segment
+        float cursor = -parentSizeOnAxis / 2f; // Start at the parent-local negative edge (bottom/left/front)
 
         // 3. Create the sub-scopes
         foreach (var split in splits)
@@ -43,10 +43,10 @@ public class SplitRule : GrammarRule
             SetAxisSize(ref localOffset, splitAxis, cursor + sizeOnAxis / 2f); // Center the child scope in the parent space
 
             Matrix4x4 childMatrix = parentScope.matrix * Matrix4x4.Translate(localOffset);
-            Scope newScope = new Scope(childMatrix, newSize, split.tag);
+            Scope newScope = new Scope(childMatrix, newSize, split.tag, split.debugColor);
             newScopes.Add(newScope);
 
-            cursor += sizeOnAxis; // Move the cursor for the next segment
+            cursor += sizeOnAxis; // Move the cursor along the parent-local axis
         }
 
         return newScopes;
