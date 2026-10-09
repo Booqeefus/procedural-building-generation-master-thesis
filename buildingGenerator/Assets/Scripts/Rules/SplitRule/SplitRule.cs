@@ -12,7 +12,7 @@ public class SplitRule : GrammarRule
     {
         List<Scope> newScopes = new List<Scope>();
 
-        // 1. Calculate total fixed vs. relative space
+        
         float parentSizeOnAxis = GetAxisSize(parentScope.size, splitAxis);
         float fixedTotal = 0f;
         float relativeWeightSum = 0f;
@@ -25,11 +25,11 @@ public class SplitRule : GrammarRule
                 fixedTotal += split.size;
         }
 
-        // 2. Determine how much space is left for relative segments
+        
         float remainingSpace = Mathf.Max(0f, parentSizeOnAxis - fixedTotal);
         float cursor = -parentSizeOnAxis / 2f; // Start at the parent-local negative edge (bottom/left/front)
 
-        // 3. Create the sub-scopes
+        
         foreach (var split in splits)
         {
             float sizeOnAxis = split.isRelative
