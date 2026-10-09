@@ -111,5 +111,10 @@
 
 </details>
 
+<details>
+<summary><b>Oct 5 - Oct 11:</b></summary>
+*   **Results of the week:** Implemented the extrude rule. The extrude rule extends a scope along a specified axis (XPos, XNeg, YPos, YNeg, ZPos, ZNeg) by either a fixed distance in Unity units or by scaling it. For example, ZPos -3 with isRelative disabled compresses the scope by 3 units along the positive Z axis, while YPos 2 with isRelative enabled doubles the scope’s height.
+
+</details>
 ---
 
