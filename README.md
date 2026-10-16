@@ -123,7 +123,7 @@
 <details>
 <summary><b>Oct 12 - Oct 18:</b></summary>
 
-*   **Results of the week:** Implemented rules for the scaling, rotation, translation and deletion of scopes. These rules only ever return one scope. Next week marks the start of development on the derivation tree and the derivation process itself.
+*   **Results of the week:** Implemented rules for the scaling, rotation, translation and deletion of scopes. These rules only ever return at most one scope. Next week marks the start of development on the derivation tree and the derivation process itself.
 
 
 </details>
