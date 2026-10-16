@@ -73,5 +73,15 @@ public struct Scope
     {
         position += offset;
     }
+
+    public void Rotate(Quaternion rotation)
+    {
+        this.rotation *= rotation;
+    }
+    public void Scale(Vector3 scaleFactors)
+    {
+        Vector3 currentScale = this.scale;
+        this.scale = Vector3.Scale(currentScale, scaleFactors);
+    }
     
 }
