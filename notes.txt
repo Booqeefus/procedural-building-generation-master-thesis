@@ -41,4 +41,10 @@
 	-chose 2 articles for presentation in may : 
 		CGA and Local Editing of Procedural Models (this week)
 
+
+
+
+Reduce number of chapters in thesis, user manual after bibliography, not as a chapter.
+Software Design chapter can contain UML, research and results, show that thing work.
+
 		
