@@ -125,6 +125,12 @@
 
 *   **Results of the week:** Implemented rules for the scaling, rotation, translation and deletion of scopes. These rules only ever return at most one scope. Next week marks the start of development on the derivation tree and the derivation process itself.
 
+</details>
+
+<details>
+<summary><b>Oct 19 - Oct 25 </b></summary>
+
+*  **Results of the week:** Implemented the basic structure of the DerivationTree as well as a DerivationTreeManager, which is responsible for following the Recipe (ordered list of GrammarRules). Testing and first generated buildings to follow. Replacement of terminal Scopes with final finished geometry not yet implemented.
 
 </details>
 ---
