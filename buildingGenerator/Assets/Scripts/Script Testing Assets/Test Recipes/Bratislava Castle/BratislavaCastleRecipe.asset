@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b6555e49dfbb9f4981da8ef2a35cf1c, type: 3}
+  m_Name: BratislavaCastleRecipe
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  rules:
+  - {fileID: 11400000, guid: 30d7ed1aa54174b48af34613a0f47a59, type: 2}
+  - {fileID: 11400000, guid: f04289f40cb324c46a1c41d20d8b7329, type: 2}
+  - {fileID: 11400000, guid: 2141856b7b2b86f4ba320bad55b934b8, type: 2}
+  - {fileID: 11400000, guid: f27681c49fa2bf748b5c97ab9de9dd77, type: 2}
+  - {fileID: 11400000, guid: 7716acf9bcfb843438c194f19a042f69, type: 2}
+  - {fileID: 11400000, guid: efec2dde53930f049bdf45e8a1dab0bd, type: 2}
+  - {fileID: 11400000, guid: 0320c27a18cce424da5fc9f4513d74f6, type: 2}
+  - {fileID: 11400000, guid: 17fb86b91460495449d13bc940b45a89, type: 2}
+  - {fileID: 11400000, guid: f5eb0307ca0639447ae7fd9bbb9956d0, type: 2}
+  - {fileID: 11400000, guid: 4805efb36ab1d964eb7287ac9f0f6402, type: 2}
+  - {fileID: 11400000, guid: 3f2e55c2798d5984c9b1dec020984947, type: 2}
+  - {fileID: 11400000, guid: d96dbb8dce5a7af4a9449a3777471961, type: 2}
+  - {fileID: 11400000, guid: 8c4d76929e8cf1348a4cd196e43383a7, type: 2}
+  - {fileID: 11400000, guid: 7e019a54874e5574d890e03972fa04cc, type: 2}
+  - {fileID: 11400000, guid: 4836b22704783e94e9ee5a0091500574, type: 2}
+  - {fileID: 11400000, guid: 6136c4d93839d734292038869689bd2c, type: 2}
+  - {fileID: 11400000, guid: 242c62c4c9fcdde4ab80dd8dbbe66dfd, type: 2}
+  - {fileID: 11400000, guid: 570cf6426e0f7d344ab5c78c41495ab5, type: 2}
+  - {fileID: 11400000, guid: db70ed9423eeabc49b74627170c2ccfb, type: 2}
+  - {fileID: 11400000, guid: f0f1c18436f446c43b7624ed2dbf2ed2, type: 2}
+  - {fileID: 11400000, guid: d579b177fd39a034eaef4c7618a565ec, type: 2}

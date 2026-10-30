@@ -1,8 +1,10 @@
 using UnityEngine;
 using System.Collections.Generic;
-public class Recipe
+
+[CreateAssetMenu(fileName = "Recipe", menuName = "Grammar/Recipes")]
+public class Recipe : ScriptableObject
 {
-    private List<GrammarRule> rules;
+    public List<GrammarRule> rules;
     public Recipe(List<GrammarRule> rules)
     {
         this.rules = rules;

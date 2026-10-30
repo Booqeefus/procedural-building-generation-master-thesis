@@ -15,6 +15,7 @@ public class ScaleRule : GrammarRule
         foreach (var scale in scales)
         {
             scope.Scale(scale.scaleFactors);
+            scope.debugColor = scale.debugColor;
         }
         newScopes.Add(scope);
         return newScopes;
