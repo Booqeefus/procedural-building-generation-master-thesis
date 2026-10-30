@@ -133,5 +133,13 @@
 *  **Results of the week:** Implemented the basic structure of the DerivationTree as well as a DerivationTreeManager, which is responsible for following the Recipe (ordered list of GrammarRules). Testing and first generated buildings to follow. Replacement of terminal Scopes with final finished geometry not yet implemented.
 
 </details>
+
+<details>
+<summary><b>Oct 26 - Nov 1 </b></summary>
+
+*  **Results of the week:** Finished the implementation of the DerivationTree. Reworked the Scope to clear up some duplicity between the size vector and the 4x4 matrix. Recipes can now be created and run in-editor. First buildings have been created. The simplest example created is a 4-level [Pyramid](images/fourStepPyramid.png). The more complex example is a heavily-simplified version of the [Bratislava Castle](images/bratislavaCastleRecipeResult.png). The work for next week is the "play" mode building derivation as well as step-by-step derivation.
+
+</details>
+
 ---
 
