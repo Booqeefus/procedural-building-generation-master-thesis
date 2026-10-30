@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b6555e49dfbb9f4981da8ef2a35cf1c, type: 3}
+  m_Name: FourStepPyramidRecipe
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  rules:
+  - {fileID: 11400000, guid: 30d7ed1aa54174b48af34613a0f47a59, type: 2}
+  - {fileID: 11400000, guid: d1f24a4ed4ec718458f92e03f899e81b, type: 2}
+  - {fileID: 11400000, guid: b1a62035b099a9f478374395c032c0df, type: 2}
+  - {fileID: 11400000, guid: bd88f5180a430aa49a3f78124e6004ea, type: 2}
+  - {fileID: 11400000, guid: 76892cb48a3a30d49a83c42f66365f3c, type: 2}
