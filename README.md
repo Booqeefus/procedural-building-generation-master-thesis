@@ -141,5 +141,10 @@
 
 </details>
 
+<details>
+<summary><b>Nov 2 - Nov 8</b></summary>
+
+*  **Results of the week:** Added Editor-Style controls to play mode, added step-by-step derivation to play mode. This may be enough for a prototype for the end-of-semester check in, might do a little more programming in the next week, but should start writing the thesis itself.
+</details>
 ---
 
