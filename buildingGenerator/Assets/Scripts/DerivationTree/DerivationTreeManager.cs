@@ -92,7 +92,7 @@ public class DerivationTreeManager:MonoBehaviour
 
     
     
-    private bool PerformRecipeStep()
+    public bool PerformRecipeStep()
     {
         GrammarRule rule = recipe.GetRule(recipeStep);
         if (rule == null)

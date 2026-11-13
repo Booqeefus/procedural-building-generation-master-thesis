@@ -12,5 +12,9 @@ public class DerivationTreeManagerEditor : Editor
         {
             ((DerivationTreeManager)target).RunWholeRecipe();
         }
+        if(GUILayout.Button("Perform Recipe Step"))
+        {
+            ((DerivationTreeManager)target).PerformRecipeStep();
+        }
     }
 }
