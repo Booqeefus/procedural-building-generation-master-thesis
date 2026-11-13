@@ -116,7 +116,7 @@
 
 *   **Results of the week:** Implemented the extrude rule. The extrude rule extends a scope along a specified axis (XPos, XNeg, YPos, YNeg, ZPos, ZNeg) by either a fixed distance in Unity units or by scaling it. For example, setting ZPos to -3 with isRelative disabled compresses the scope by 3 units along the positive Z axis, whereas setting YPos to 2 with isRelative enabled doubles the scope’s height.
  The image below shows a scope that was first split vertically and then "extruded" along the X axis by a factor of 0.5.
- [Split then extrude example](images/splitThenExtrudeEditorExample.png)
+ [Split then extrude example](GitHubAssets/splitThenExtrudeEditorExample.png)
 
 </details>
 
@@ -137,7 +137,7 @@
 <details>
 <summary><b>Oct 26 - Nov 1 </b></summary>
 
-*  **Results of the week:** Finished the implementation of the DerivationTree. Reworked the Scope to clear up some duplicity between the size vector and the 4x4 matrix. Recipes can now be created and run in-editor. First buildings have been created. The simplest example created is a 4-level [Pyramid](images/fourStepPyramid.png). The more complex example is a heavily-simplified version of the [Bratislava Castle](images/bratislavaCastleRecipeResult.png). The work for next week is the "play" mode building derivation as well as step-by-step derivation.
+*  **Results of the week:** Finished the implementation of the DerivationTree. Reworked the Scope to clear up some duplicity between the size vector and the 4x4 matrix. Recipes can now be created and run in-editor. First buildings have been created. The simplest example created is a 4-level [Pyramid](GitHubAssets/fourStepPyramid.png). The more complex example is a heavily-simplified version of the [Bratislava Castle](GitHubAssets/bratislavaCastleRecipeResult.png). The work for next week is the "play" mode building derivation as well as step-by-step derivation.
 
 </details>
 
@@ -146,5 +146,14 @@
 
 *  **Results of the week:** Added Editor-Style controls to play mode, added step-by-step derivation to play mode. This may be enough for a prototype for the end-of-semester check in, might do a little more programming in the next week, but should start writing the thesis itself.
 </details>
+
+<details>
+<summary><b>Nov 9 - Nov 15</b></summary>
+
+*  **Results of the week:** Added a simple UI consisting of 3 buttons, one for performing a recipe step, one to run the full recipe and one to reset the derivation. Started on the thesis itself, adjusted the number and titles of future chapters.
+[UI Demonstration](GitHubAssets/FirstUI.mp4)
+
+</details>
+
 ---
 
